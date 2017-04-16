@@ -1,0 +1,49 @@
+.
+├── LICENSE
+├── README.md
+├── data
+│   ├── external
+│   ├── interim
+│   │   └── glasgowMC.csv
+│   ├── processed
+│   └── raw
+│       ├── DOs_and_Postcodes.csv
+│       ├── bankholliday.csv
+│       ├── s2ds1.txt
+│       ├── s2ds1_update.txt
+│       ├── s2ds2.txt
+│       ├── s2ds3.txt
+│       └── s2ds4.txt
+├── environment.yml
+├── models
+├── notebooks
+│   ├── exploratory
+│   │   ├── Glasgow_MC.ipynb
+│   └── reports
+│       ├── Brimingham_mail_centre.ipynb
+│       ├── Glasgow_MC.ipynb
+│       └── SimpleNaiveModel.ipynb
+├── reports
+│   ├── Glasgow_mc.md
+│   ├── figures
+│   └── model_idea.org
+├── requirements.txt
+├── setting.py
+├── setting.pyc
+├── src
+│   ├── __init__.py
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── gen_data.py
+│   │   ├── helper.py
+│   ├── model
+│   │   ├── __init__.py
+│   │   ├── arima_model.py
+│   │   ├── naive_benchmark.py
+│   └── visualization
+│       ├── __init__.py
+│       ├── visualize.py
+├── tox.ini
+└── tree.txt
+
+19 directories, 61 files
